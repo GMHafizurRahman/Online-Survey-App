@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_image_5"
+    android:paddingTop="30dp"
+    tools:context=".SurveyQuestion3">
+
+
+    <TextView
+        android:id="@+id/text_view_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Score: 0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/text_view_question_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_score"
+        android:layout_marginLeft="10dp"
+        android:text="Question: 3/5"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/timeCounterId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:text="00:30"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="What do you like about Shipp service?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_question"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_design_share"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <CheckBox
+            android:id="@+id/question_3_CheckBoxId_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fairly cheaper price"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question_3_CheckBoxId_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Clear tracking system"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question_3_CheckBoxId_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Easy to use"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question_3_CheckBoxId_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Friendly customer service"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/question_3_nextButton_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayoutId"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/button_design_share_2"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AssessmentTest</string>
+    <string name="welcome_to_online_survey">Welcome to online survey</string>
+    <string name="exit">Exit</string>
+    <string name="clear">Clear</string>
+
+    <string-array name="gender">
+        <item>Select an Option</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="spinner_array">
+        <item>Select a Option</item>
+        <item>Very often</item>
+        <item>Often</item>
+        <item>Moderate</item>
+        <item>Not much</item>
+        <item>Never used</item>
+    </string-array>
+
+</resources>
